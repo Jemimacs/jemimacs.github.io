@@ -4267,7 +4267,7 @@ textarea.ui-input-text.ui-textinput-autogrow {
 .ui-flipswitch .ui-btn.ui-flipswitch-on {
 	width: 1.75em;
 	padding: 0;
-	text-indent: -2.6em; /* Override this to center text if you use a label other than "on" */
+	text-indent: -3.4em; /* Override this to center text if you use a label other than "on" */
 	text-align: left;
 	border-width: 1px;
 	border-style: solid;

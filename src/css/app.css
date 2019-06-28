@@ -36,8 +36,11 @@ h4{
     font-size: 1em;
 }
 
-p, label, input{
-	font-size: calc(5px + 1vw);
+p, label, input, li{
+	font-size: calc(9px + 1vw);
+}
+input{
+	padding-left: 2px;
 }
 
 input:focus {
@@ -45,7 +48,7 @@ input:focus {
 }
 
 ::placeholder{
-	font-size: calc(5px + 1vw);
+	font-size: calc(9px + 1vw);
 }
 
 /* Custom indentations are needed because the length of custom labels differs from
