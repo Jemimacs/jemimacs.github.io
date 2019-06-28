@@ -1,1 +1,128 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible">
+
+	<title>Books</title>
+	<link rel="manifest" href="manifest.json">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css">
+	<link rel="stylesheet" type="text/css" href="/src/css/jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" type="text/css" href="/src/css/app.css">
+	<script src="/src/js/jquery-2.2.4.js"></script>
+	<script src="/src/js/jquery.mobile-1.4.5.js"></script>
+	<script src="/src/js/app.js"></script>
+	<link rel="apple-touch-icon" sizes="57x57" href="/src/images/icons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/src/images/icons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/src/images/icons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/src/images/icons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/src/images/icons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/src/images/icons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/src/images/icons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/src/images/icons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/src/images/icons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/src/images/icons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<div data-role="page" data-theme="a" id="page">
+		<div data-role="header">
+			<h1>Books Apps</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+			<button id="install-button">Add to home Screen</button>
+			<form>
+				<input data-type="search" id="searchBook" placeholder="Search Books..." tabindex="1">
+			</form>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-input="#searchBook" data-filter="true" data-inset="true" id="collapsible1">
+				<h4 id="title1"></h4>
+				<ul data-role="listview" data-inset="false">
+					<li id="image1"></li>
+					<li id="author1">Author: </li>
+					<li id="country1">Country: </li>
+					<li id="subject1">Subject: </li>
+					<li id="publisher1">Publisher: </li>
+					<li id="notes1">Notes: </li>
+					<li id="url1">Url: </li>
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-input="#searchBook" data-filter="true" data-inset="true" id="collapsible2">
+				<h4 id="title2"></h4>
+				<ul data-role="listview" data-inset="false">
+					<li id="image2"></li>
+					<li id="author2">Author: </li>
+					<li id="country2">Country: </li>
+					<li id="subject2">Subject: </li>
+					<li id="publisher2">Publisher: </li>
+					<li id="notes2">Notes: </li>
+					<li id="url2">Url: </li>
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-input="#searchBook" data-filter="true" data-inset="true" id="collapsible3">
+				<h4 id="title3"></h4>
+				<ul data-role="listview" data-inset="false">
+					<li id="image3"></li>
+					<li id="author3">Author: </li>
+					<li id="country3">Country: </li>
+					<li id="subject3">Subject: </li>
+					<li id="publisher3">Publisher: </li>
+					<li id="notes3">Notes: </li>
+					<li id="url3">Url: </li>
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-input="#searchBook" data-filter="true" data-inset="true" id="collapsible4">
+				<h4 id="title4"></h4>
+				<ul data-role="listview" data-inset="false">
+					<li id="image4"></li>
+					<li id="author4">Author: </li>
+					<li id="country4">Country: </li>
+					<li id="subject4">Subject: </li>
+					<li id="publisher4">Publisher: </li>
+					<li id="notes4">Notes: </li>
+					<li id="url4">Url: </li>
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-input="#searchBook" data-filter="true" data-inset="true" id="collapsible5">
+				<h4 id="title5"></h4>
+				<ul data-role="listview" data-inset="false">
+					<li id="image5"></li>
+					<li id="author5">Author: </li>
+					<li id="country5">Country: </li>
+					<li id="subject5">Subject: </li>
+					<li id="publisher5">Publisher: </li>
+					<li id="notes5">Notes: </li>
+					<li id="url5">Url: </li>
+				</ul>
+			</div>
+			<form>
+    			<!-- <label for="flip-checkbox-2">Contrast</label> -->
+    			<input type="checkbox" data-role="flipswitch" name="flip-checkbox-2" id="flip-checkbox-2" data-on-text="Light"data-off-text="Dark" data-wrapper-class="custom-label-flipswitch" onchange="modeSwitch()">
+			</form>
+		</div>
+		<div data-role="footer">
+			<h2>&copy; Jemima Ciani Setiawan(26416042) - Kezia Kurniawati(26416089) - Michael Kurniawan Soegeng(26416017)</h2>
+		</div>
+	</div>
+	<!-- <script>
+	    document.querySelector('.ui-content').addEventListener('touchstart', f);
+	    document.querySelector('.ui-content').addEventListener('touchend',f);
+	    document.querySelector('.ui-content').addEventListener('touchmove',f);
+
+	    function f(ev) {
+	      console.log( ev.touches, ev.type );
+	    }
+	</script> -->
+	<script defer src="/src/js/material.min.js"></script>
+	<script src="/src/js/promise.js"></script>
+	<script src="/src/js/app.js"></script>
+</body>
+</html>
